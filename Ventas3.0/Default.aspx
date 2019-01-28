@@ -1,6 +1,16 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Ventas3._0._Default" %>
+﻿<%@ Page Title="" 
+    Language="C#" 
+    MasterPageFile="~/Site.master" 
+    AutoEventWireup="true" 
+    CodeBehind="Default.aspx.cs" 
+    Inherits="Ventas3._0._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+</asp:Content>
+
+<%--<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>
@@ -39,4 +49,4 @@
         </div>
     </div>
 
-</asp:Content>
+</asp:Content>--%>

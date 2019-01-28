@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ventas3._0.Registros {
+namespace Ventas3._0.Consultas {
     
     
-    public partial class rUsuarios {
+    public partial class cUsuarios {
     }
 }
