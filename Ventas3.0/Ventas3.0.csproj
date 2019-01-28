@@ -233,13 +233,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Consultas\" />
-    <Folder Include="Reportes\" />
     <Folder Include="Utilitarios\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
