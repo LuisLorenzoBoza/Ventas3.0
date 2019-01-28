@@ -7,7 +7,7 @@ namespace Entities
     {
         [Key]          
         public string Nombre { get; set; }
-        public string NombreUsuario { get; set; }
+        public int UsuarioId { get; set; }
         public string Clave { get; set; }
         public string Email { get; set; }
         public string Telefono { get; set; }
@@ -18,7 +18,7 @@ namespace Entities
         public Usuario()
         {
             this.Nombre = string.Empty;
-            this.NombreUsuario = string.Empty;
+            this.UsuarioId = 0;
             this.Clave = string.Empty;
             this.Email = string.Empty;
             this.Telefono = string.Empty;
