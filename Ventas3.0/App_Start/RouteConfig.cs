@@ -1,6 +1,4 @@
-using System.Web.Mvc;
 using System.Web.Routing;
-using Microsoft.AspNet.FriendlyUrls;
 
 namespace Ventas3._0
 {
